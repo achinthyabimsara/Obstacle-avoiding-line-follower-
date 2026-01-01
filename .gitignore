@@ -1,0 +1,33 @@
+# Arduino build products and temporary files.
+#
+# Useful info:
+#   http://arduino.cc/en/Hacking/BuildProcess
+#   https://github.com/arduino/Arduino/wiki/Build-Process-of-Arduino-Sketch
+
+*.o
+*.a
+*.elf
+*.eep
+*.hex
+*.bin
+*.lss
+*.sym
+*.map
+*~
+*.bak
+
+# Pre-1.5 Arduino IDE
+applet/
+
+# 1.5 Arduino IDE
+build/
+
+# Other files and folders that should be ignored
+*DS_Store*
+*Thumbs.db*
+*desktop.ini*
+*.Trash-*
+*.Spotlight-*
+.LSOverride
+*ntuser.dat*
+*ntuser.ini*
